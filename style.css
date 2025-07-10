@@ -1,0 +1,173 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #1e1e2f;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+}
+
+header p {
+  font-size: 1.1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+nav ul li {
+  margin: 10px 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+  background: #fff;
+  color: #1e1e2f;
+  border-radius: 5px;
+}
+
+section {
+  padding: 2rem;
+  background: #fff;
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  color: #1e1e2f;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.project {
+  margin-bottom: 1.5rem;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 5px;
+  color: #1e1e2f;
+  text-decoration: underline;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form button {
+  padding: 10px 20px;
+  background: #1e1e2f;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #1e1e2f;
+  color: #fff;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 1.5rem;
+  }
+}
+
+.project-card {
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 1.5rem 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.red-bg {
+  background: linear-gradient(135deg, #ff4e50, #f9d423);
+}
+
+.blue-bg {
+  background: linear-gradient(135deg, #36d1dc, #5b86e5);
+}
+
+.project-text h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.project-text p {
+  font-size: 1.1rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #1e1e2f;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #333;
+}
